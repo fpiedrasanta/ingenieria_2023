@@ -1,6 +1,6 @@
 namespace api_programacion_3.entities.recursos;
 
-public class Recurso 
+public class Bibliografia 
 {
     private long id;
 
@@ -73,21 +73,6 @@ public class Recurso
         set 
         {
             this.link = value;
-        }
-    }
-
-    private TipoRecurso tipoRecurso;
-
-    public TipoRecurso TipoRecurso
-    {
-        get
-        {
-            return this.tipoRecurso;
-        }
-
-        set
-        {
-            this.tipoRecurso = value;
         }
     }
 }
